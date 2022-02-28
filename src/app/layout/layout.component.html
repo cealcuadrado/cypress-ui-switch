@@ -1,1 +1,12 @@
-<p>layout works!</p>
+<div class="row align-items-center">
+  <div class="col-12 col-lg-6">
+    <ui-switch
+      [(ngModel)]="checked"
+      checkedLabel="Checked"
+      uncheckedLabel="Unchecked">
+    </ui-switch>
+  </div>
+  <div class="col-12 col-lg-6">
+    <p>Checked?: {{checked}}</p>
+  </div>
+</div>
